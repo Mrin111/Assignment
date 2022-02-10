@@ -14,21 +14,26 @@
             document.write(table + "*" + a + "=" + (a*table) + "<br/>");
         }
         
-        var grade=92
+        var Bengali=92;
+        var English=75;
+        var Math=82;
+        var History=70;
+        var Geography=91;
+        var sub=Bengali+English+Math+History+Geography;
 
-        if(grade>=90)
+        if(sub>=480)
         {
             console.log("A+ Grade");
         }
-        else if(grade>=70)
+        else if(sub>=430)
         {
             console.log("A Grade");
         }
-        else if(grade>=50)
+        else if(sub>=370)
         {
             console.log("B+ Grade");
         }
-        else if(grade>=30)
+        else if(sub>=300)
         {
             console.log("B Grade");
         }
